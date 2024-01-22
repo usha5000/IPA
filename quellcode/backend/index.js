@@ -5,7 +5,7 @@ var ad = new ActiveDirectory({
     url: "ldap://192.168.10.20:389",
     baseDN: "dc=it-tf,dc=local",
     username: "ldapipa@it-tf.local",
-    password: "x6wrt_s%7"
+    password: "example"
   })
 const ldapDomain = "it-tf.local"
 var sAMAccountName = '';
