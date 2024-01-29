@@ -2,9 +2,9 @@ const express = require('express')
 const app = express()
 const ActiveDirectory = require('activedirectory2');
 var ad = new ActiveDirectory({
-    url: "ldap://192.168.10.20:389",
-    baseDN: "dc=it-tf,dc=local",
-    username: "ldapipa@it-tf.local",
+    url: "example",
+    baseDN: "example",
+    username: "example",
     password: "example"
   })
 const ldapDomain = "it-tf.local"
